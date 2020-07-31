@@ -1,0 +1,42 @@
+p{
+    text-align:center;
+    font-size:30px;
+    margin-top:8px;
+}
+.tile{
+    position: relative; 
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-color:#0000FF;
+    margin:10;
+}
+.word{
+    position: absolute;
+    left:10px;
+    bottom:10px; 
+}
+.letter{
+    position: relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-color:#FFFFFF;
+    border-color:#000000;
+    border-width:5px;
+    border-style:solid;
+    margin:10;
+}
+.letter:hover{
+    cursor:pointer;
+}
+.winb{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color:#FFFFFF;
+    z-index:5;
+}
+a{
+    text-decoration:none;
+}

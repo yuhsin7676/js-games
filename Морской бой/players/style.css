@@ -1,0 +1,216 @@
+body{
+    margin:0px;
+    background-color:#E0E0E0;
+}
+p{
+    user-select:none;
+    margin:0px;
+}
+#choose{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color:#80E0F0;;
+    z-index:5;
+}
+
+#text1{
+    position: absolute;
+    top:0px;
+    height: 300px;
+    left: 0px;
+    width:100%;
+    text-align: center;
+}
+#text2{
+    position: fixed;
+    top:0px;
+    height: 100px;
+    left:0px;
+    width:100%;
+    text-align: center;
+    z-index:4;
+    background-color:#E0E0E0;
+    border:2px #CCC outset;
+}
+
+
+.button{
+    position: absolute;
+    margin:200px 50px;
+    height: calc(100% - 300px);
+    left: 0px;
+    right: 0px;
+    background-color: #CCC;
+    text-align: center;
+    box-sizing: border-box;
+    border:2px #CCC outset;
+}
+.button:hover{
+    background-color: #DDD;
+    border:2px #DDD outset;
+}
+.button:active{
+    background-color: #AAA;
+    border:2px #AAA inset;
+}
+#button1{
+    top:0%;
+}
+#button2{
+    top:25%;
+}
+#button3{
+    top:50%;
+}
+#button4{
+    top:75%;
+}
+
+
+
+
+
+.buttontext{
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    font-size:30px;
+}
+
+.button000{
+    background-color:#CCC;
+    border:2px #CCC outset;
+    left:50%;
+}
+#buttonup{
+    position:absolute;
+    top:570px;
+    -webkit-transform:translate(-50%,0px);
+    transform:translate(-50%,0px);
+    width:90px;
+    height:90px;
+}
+#buttondown{
+    position:absolute;
+    top:770px;
+    -webkit-transform:translate(-50%,0px);
+    transform:translate(-50%,0px);
+    width:90px;
+    height:90px;
+}
+#buttonleft{
+    position:absolute;
+    top:670px;
+    -webkit-transform:translate(calc(-100px - 50%),0px);
+    transform:translate(calc(-100px - 50%),0px);
+    width:90px;
+    height:90px;
+}
+#buttonright{
+    position:absolute;
+    top:670px;
+    -webkit-transform:translate(calc(100px - 50%),0px);
+    transform:translate(calc(100px - 50%),0px);
+    width:90px;
+    height:90px;
+}
+#buttonrotate{
+    position:absolute;
+    top:670px;
+    -webkit-transform:translate(-50%,0px);
+    transform:translate(-50%,0px);
+    width:90px;
+    height:90px;
+}
+#buttonstay{
+    position:absolute;
+    top:870px;
+    -webkit-transform:translate(-50%,0px);
+    transform:translate(-50%,0px);
+    width:290px;
+    height:90px;
+}
+
+
+.button001{
+    display:none;
+    background-color:#EEE;
+    color:#888;
+    border:2px #CCC outset;
+    top:680px;
+    width:140px;
+    height:100px;
+}
+#fire1{
+    left:510px;
+}
+#fire2{
+    left:655px;
+}
+#fire3{
+    left:820px;
+}
+
+
+#pole1{
+    position:absolute;
+    top:110px;
+    left:10px;
+    border:2px #C0C0C0 inset;
+}
+#pole2{
+    position:absolute;
+    top:110px;
+    left:510px;
+    border:2px #C0C0C0 inset;
+}
+.pole{
+    position: absolute;
+    background-color: #80E0F0;
+    box-sizing: border-box;
+} 
+.open{
+    border:2px #80E0F0 outset;
+}
+.close{
+    border:2px #80E0F0 outset;
+}
+.close:hover{
+    background-color: #C0F0F8;
+    border:2px #C0F0F8 outset;
+}
+.close:active{
+    border:0px;
+    background-color: #80E0F0;
+}
+.ship{
+    background-color: #CCC;
+    border:4px #CCC outset;
+}
+
+#myshipstablo{
+    display:none;
+    position: absolute;
+    background-color: #CCC;
+    border:2px #C0C0C0 inset;
+    top:570px;
+    left:10px;
+    height:100px;
+    width:450px;
+}
+#enemyshipstablo{
+    display:none;
+    position: absolute;
+    background-color: #CCC;
+    border:2px #C0C0C0 inset;
+    top:570px;
+    left:510px;
+    height:100px;
+    width:450px;
+}
